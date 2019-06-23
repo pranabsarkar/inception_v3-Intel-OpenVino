@@ -1,0 +1,883 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="batch_normalization_164/FusedBatchNorm" out_port_id="0"/>
+		<IR id="159" name="conv2d_164/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_183/Relu" out_port_id="0"/>
+		<IR id="205" name="activation_183/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_148/FusedBatchNorm" out_port_id="0"/>
+		<IR id="123" name="conv2d_148/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_157/Relu" out_port_id="0"/>
+		<IR id="144" name="activation_157/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_97/FusedBatchNorm" out_port_id="0"/>
+		<IR id="8" name="conv2d_97/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_113/Relu" out_port_id="0"/>
+		<IR id="46" name="activation_113/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_160/Relu" out_port_id="0"/>
+		<IR id="150" name="activation_160/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_141/FusedBatchNorm" out_port_id="0"/>
+		<IR id="107" name="conv2d_141/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_97/Relu" out_port_id="0"/>
+		<IR id="9" name="activation_97/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed4/concat" out_port_id="0"/>
+		<IR id="92" name="mixed4/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_123/FusedBatchNorm" out_port_id="0"/>
+		<IR id="67" name="conv2d_123/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_185/Relu" out_port_id="0"/>
+		<IR id="209" name="activation_185/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_94/Relu" out_port_id="0"/>
+		<IR id="2" name="activation_94/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_96/Relu" out_port_id="0"/>
+		<IR id="6" name="activation_96/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed6/concat" out_port_id="0"/>
+		<IR id="136" name="mixed6/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="activation_169/Relu" out_port_id="0"/>
+		<IR id="170" name="activation_169/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_121/Relu" out_port_id="0"/>
+		<IR id="64" name="activation_121/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_123/Relu" out_port_id="0"/>
+		<IR id="68" name="activation_123/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_113/FusedBatchNorm" out_port_id="0"/>
+		<IR id="45" name="conv2d_113/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_160/FusedBatchNorm" out_port_id="0"/>
+		<IR id="149" name="conv2d_160/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_132/Relu" out_port_id="0"/>
+		<IR id="88" name="activation_132/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_125/Relu" out_port_id="0"/>
+		<IR id="74" name="activation_125/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_154/FusedBatchNorm" out_port_id="0"/>
+		<IR id="137" name="conv2d_154/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="concatenate_2/concat" out_port_id="0"/>
+		<IR id="190" name="concatenate_2/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_12/AvgPool" out_port_id="0"/>
+		<IR id="89" name="average_pooling2d_12/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_174/Relu" out_port_id="0"/>
+		<IR id="183" name="activation_174/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_187/FusedBatchNorm" out_port_id="0"/>
+		<IR id="214" name="conv2d_187/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_140/FusedBatchNorm" out_port_id="0"/>
+		<IR id="105" name="conv2d_140/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_100/Relu" out_port_id="0"/>
+		<IR id="16" name="activation_100/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_170/FusedBatchNorm" out_port_id="0"/>
+		<IR id="173" name="conv2d_170/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_126/FusedBatchNorm" out_port_id="0"/>
+		<IR id="75" name="conv2d_126/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixed9/concat" out_port_id="0"/>
+		<IR id="194" name="mixed9/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_104/FusedBatchNorm" out_port_id="0"/>
+		<IR id="23" name="conv2d_104/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_128/Relu" out_port_id="0"/>
+		<IR id="80" name="activation_128/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed8/concat" out_port_id="0"/>
+		<IR id="172" name="mixed8/concat" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_159/FusedBatchNorm" out_port_id="0"/>
+		<IR id="147" name="conv2d_159/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_139/Relu" out_port_id="0"/>
+		<IR id="104" name="activation_139/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_149/FusedBatchNorm" out_port_id="0"/>
+		<IR id="125" name="conv2d_149/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_172/FusedBatchNorm" out_port_id="0"/>
+		<IR id="177" name="conv2d_172/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_115/Relu" out_port_id="0"/>
+		<IR id="50" name="activation_115/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_106/FusedBatchNorm" out_port_id="0"/>
+		<IR id="29" name="conv2d_106/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_117/Relu" out_port_id="0"/>
+		<IR id="54" name="activation_117/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_103/FusedBatchNorm" out_port_id="0"/>
+		<IR id="21" name="conv2d_103/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_167/FusedBatchNorm" out_port_id="0"/>
+		<IR id="165" name="conv2d_167/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_134/FusedBatchNorm" out_port_id="0"/>
+		<IR id="93" name="conv2d_134/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="concatenate_3/concat" out_port_id="0"/>
+		<IR id="212" name="concatenate_3/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_147/FusedBatchNorm" out_port_id="0"/>
+		<IR id="121" name="conv2d_147/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_177/Relu" out_port_id="0"/>
+		<IR id="189" name="activation_177/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_131/FusedBatchNorm" out_port_id="0"/>
+		<IR id="85" name="conv2d_131/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_150/Relu" out_port_id="0"/>
+		<IR id="128" name="activation_150/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_151/FusedBatchNorm" out_port_id="0"/>
+		<IR id="129" name="conv2d_151/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_181/Relu" out_port_id="0"/>
+		<IR id="200" name="activation_181/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_103/Relu" out_port_id="0"/>
+		<IR id="22" name="activation_103/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_122/Relu" out_port_id="0"/>
+		<IR id="66" name="activation_122/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_116/Relu" out_port_id="0"/>
+		<IR id="52" name="activation_116/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_99/Relu" out_port_id="0"/>
+		<IR id="14" name="activation_99/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_126/Relu" out_port_id="0"/>
+		<IR id="76" name="activation_126/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_162/FusedBatchNorm" out_port_id="0"/>
+		<IR id="153" name="conv2d_162/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixed3/concat" out_port_id="0"/>
+		<IR id="70" name="mixed3/concat" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_130/Relu" out_port_id="0"/>
+		<IR id="84" name="activation_130/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_162/Relu" out_port_id="0"/>
+		<IR id="154" name="activation_162/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_170/Relu" out_port_id="0"/>
+		<IR id="174" name="activation_170/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed2/concat" out_port_id="0"/>
+		<IR id="60" name="mixed2/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="activation_159/Relu" out_port_id="0"/>
+		<IR id="148" name="activation_159/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_118/FusedBatchNorm" out_port_id="0"/>
+		<IR id="55" name="conv2d_118/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_169/FusedBatchNorm" out_port_id="0"/>
+		<IR id="169" name="conv2d_169/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_131/Relu" out_port_id="0"/>
+		<IR id="86" name="activation_131/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_102/FusedBatchNorm" out_port_id="0"/>
+		<IR id="19" name="conv2d_102/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_134/Relu" out_port_id="0"/>
+		<IR id="94" name="activation_134/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_122/FusedBatchNorm" out_port_id="0"/>
+		<IR id="65" name="conv2d_122/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_187/Relu" out_port_id="0"/>
+		<IR id="215" name="activation_187/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed1/concat" out_port_id="0"/>
+		<IR id="44" name="mixed1/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="activation_151/Relu" out_port_id="0"/>
+		<IR id="130" name="activation_151/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_157/FusedBatchNorm" out_port_id="0"/>
+		<IR id="143" name="conv2d_157/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_101/FusedBatchNorm" out_port_id="0"/>
+		<IR id="17" name="conv2d_101/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_4/MaxPool" out_port_id="0"/>
+		<IR id="7" name="max_pooling2d_4/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_161/FusedBatchNorm" out_port_id="0"/>
+		<IR id="151" name="conv2d_161/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="predictions/BiasAdd" out_port_id="0"/>
+		<IR id="220" name="predictions/MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_94/FusedBatchNorm" out_port_id="0"/>
+		<IR id="1" name="conv2d_94/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_186/Relu" out_port_id="0"/>
+		<IR id="211" name="activation_186/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_98/FusedBatchNorm" out_port_id="0"/>
+		<IR id="10" name="conv2d_98/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_154/Relu" out_port_id="0"/>
+		<IR id="138" name="activation_154/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_119/FusedBatchNorm" out_port_id="0"/>
+		<IR id="58" name="conv2d_119/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_143/FusedBatchNorm" out_port_id="0"/>
+		<IR id="112" name="conv2d_143/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_111/Relu" out_port_id="0"/>
+		<IR id="40" name="activation_111/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_184/Relu" out_port_id="0"/>
+		<IR id="207" name="activation_184/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_133/FusedBatchNorm" out_port_id="0"/>
+		<IR id="90" name="conv2d_133/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_142/Relu" out_port_id="0"/>
+		<IR id="110" name="activation_142/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_183/FusedBatchNorm" out_port_id="0"/>
+		<IR id="204" name="conv2d_183/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_5/MaxPool" out_port_id="0"/>
+		<IR id="12" name="max_pooling2d_5/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_106/Relu" out_port_id="0"/>
+		<IR id="30" name="activation_106/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_120/FusedBatchNorm" out_port_id="0"/>
+		<IR id="61" name="conv2d_120/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_168/FusedBatchNorm" out_port_id="0"/>
+		<IR id="167" name="conv2d_168/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="input_2" out_port_id="0"/>
+		<IR id="0" name="input_2" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_6/MaxPool" out_port_id="0"/>
+		<IR id="69" name="max_pooling2d_6/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_172/Relu" out_port_id="0"/>
+		<IR id="178" name="activation_172/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_145/Relu" out_port_id="0"/>
+		<IR id="118" name="activation_145/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_163/FusedBatchNorm" out_port_id="0"/>
+		<IR id="156" name="conv2d_163/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_129/FusedBatchNorm" out_port_id="0"/>
+		<IR id="81" name="conv2d_129/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_148/Relu" out_port_id="0"/>
+		<IR id="124" name="activation_148/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_107/Relu" out_port_id="0"/>
+		<IR id="32" name="activation_107/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_168/Relu" out_port_id="0"/>
+		<IR id="168" name="activation_168/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_120/Relu" out_port_id="0"/>
+		<IR id="62" name="activation_120/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_112/FusedBatchNorm" out_port_id="0"/>
+		<IR id="42" name="conv2d_112/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_139/FusedBatchNorm" out_port_id="0"/>
+		<IR id="103" name="conv2d_139/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_99/FusedBatchNorm" out_port_id="0"/>
+		<IR id="13" name="conv2d_99/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="avg_pool/Mean" out_port_id="0"/>
+		<IR id="219" name="Reshape_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_149/Relu" out_port_id="0"/>
+		<IR id="126" name="activation_149/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_175/FusedBatchNorm" out_port_id="0"/>
+		<IR id="184" name="conv2d_175/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_114/FusedBatchNorm" out_port_id="0"/>
+		<IR id="47" name="conv2d_114/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_95/FusedBatchNorm" out_port_id="0"/>
+		<IR id="3" name="conv2d_95/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_179/Relu" out_port_id="0"/>
+		<IR id="196" name="activation_179/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_125/FusedBatchNorm" out_port_id="0"/>
+		<IR id="73" name="conv2d_125/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_171/Relu" out_port_id="0"/>
+		<IR id="176" name="activation_171/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="max_pooling2d_7/MaxPool" out_port_id="0"/>
+		<IR id="171" name="max_pooling2d_7/MaxPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_129/Relu" out_port_id="0"/>
+		<IR id="82" name="activation_129/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_127/Relu" out_port_id="0"/>
+		<IR id="78" name="activation_127/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed5/concat" out_port_id="0"/>
+		<IR id="114" name="mixed5/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_158/FusedBatchNorm" out_port_id="0"/>
+		<IR id="145" name="conv2d_158/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_95/Relu" out_port_id="0"/>
+		<IR id="4" name="activation_95/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_156/Relu" out_port_id="0"/>
+		<IR id="142" name="activation_156/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed9_1/concat" out_port_id="0"/>
+		<IR id="203" name="mixed9_1/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_178/Relu" out_port_id="0"/>
+		<IR id="193" name="activation_178/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_16/AvgPool" out_port_id="0"/>
+		<IR id="191" name="average_pooling2d_16/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_111/FusedBatchNorm" out_port_id="0"/>
+		<IR id="39" name="conv2d_111/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_155/Relu" out_port_id="0"/>
+		<IR id="140" name="activation_155/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_144/Relu" out_port_id="0"/>
+		<IR id="116" name="activation_144/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_132/FusedBatchNorm" out_port_id="0"/>
+		<IR id="87" name="conv2d_132/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_128/FusedBatchNorm" out_port_id="0"/>
+		<IR id="79" name="conv2d_128/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_166/Relu" out_port_id="0"/>
+		<IR id="164" name="activation_166/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_127/FusedBatchNorm" out_port_id="0"/>
+		<IR id="77" name="conv2d_127/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_152/Relu" out_port_id="0"/>
+		<IR id="132" name="activation_152/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_143/Relu" out_port_id="0"/>
+		<IR id="113" name="activation_143/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_9/AvgPool" out_port_id="0"/>
+		<IR id="25" name="average_pooling2d_9/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_124/FusedBatchNorm" out_port_id="0"/>
+		<IR id="71" name="conv2d_124/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_171/FusedBatchNorm" out_port_id="0"/>
+		<IR id="175" name="conv2d_171/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_109/Relu" out_port_id="0"/>
+		<IR id="36" name="activation_109/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_108/Relu" out_port_id="0"/>
+		<IR id="34" name="activation_108/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_10/AvgPool" out_port_id="0"/>
+		<IR id="41" name="average_pooling2d_10/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_17/AvgPool" out_port_id="0"/>
+		<IR id="213" name="average_pooling2d_17/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed0/concat" out_port_id="0"/>
+		<IR id="28" name="mixed0/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="activation_161/Relu" out_port_id="0"/>
+		<IR id="152" name="activation_161/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_14/AvgPool" out_port_id="0"/>
+		<IR id="133" name="average_pooling2d_14/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed9_0/concat" out_port_id="0"/>
+		<IR id="181" name="mixed9_0/concat" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="activation_114/Relu" out_port_id="0"/>
+		<IR id="48" name="activation_114/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_181/FusedBatchNorm" out_port_id="0"/>
+		<IR id="199" name="conv2d_181/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_137/Relu" out_port_id="0"/>
+		<IR id="100" name="activation_137/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_179/FusedBatchNorm" out_port_id="0"/>
+		<IR id="195" name="conv2d_179/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_13/AvgPool" out_port_id="0"/>
+		<IR id="111" name="average_pooling2d_13/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_146/Relu" out_port_id="0"/>
+		<IR id="120" name="activation_146/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_186/FusedBatchNorm" out_port_id="0"/>
+		<IR id="210" name="conv2d_186/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_136/FusedBatchNorm" out_port_id="0"/>
+		<IR id="97" name="conv2d_136/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_174/FusedBatchNorm" out_port_id="0"/>
+		<IR id="182" name="conv2d_174/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_115/FusedBatchNorm" out_port_id="0"/>
+		<IR id="49" name="conv2d_115/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_121/FusedBatchNorm" out_port_id="0"/>
+		<IR id="63" name="conv2d_121/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_165/Relu" out_port_id="0"/>
+		<IR id="162" name="activation_165/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_173/FusedBatchNorm" out_port_id="0"/>
+		<IR id="179" name="conv2d_173/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="predictions/Softmax" out_port_id="0"/>
+		<IR id="221" name="predictions/Softmax" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_173/Relu" out_port_id="0"/>
+		<IR id="180" name="activation_173/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_98/Relu" out_port_id="0"/>
+		<IR id="11" name="activation_98/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_118/Relu" out_port_id="0"/>
+		<IR id="56" name="activation_118/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_176/Relu" out_port_id="0"/>
+		<IR id="187" name="activation_176/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_182/FusedBatchNorm" out_port_id="0"/>
+		<IR id="201" name="conv2d_182/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_105/FusedBatchNorm" out_port_id="0"/>
+		<IR id="26" name="conv2d_105/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_96/FusedBatchNorm" out_port_id="0"/>
+		<IR id="5" name="conv2d_96/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_138/Relu" out_port_id="0"/>
+		<IR id="102" name="activation_138/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_165/FusedBatchNorm" out_port_id="0"/>
+		<IR id="161" name="conv2d_165/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="mixed7/concat" out_port_id="0"/>
+		<IR id="158" name="mixed7/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_156/FusedBatchNorm" out_port_id="0"/>
+		<IR id="141" name="conv2d_156/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_167/Relu" out_port_id="0"/>
+		<IR id="166" name="activation_167/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_105/Relu" out_port_id="0"/>
+		<IR id="27" name="activation_105/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_15/AvgPool" out_port_id="0"/>
+		<IR id="155" name="average_pooling2d_15/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_140/Relu" out_port_id="0"/>
+		<IR id="106" name="activation_140/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_100/FusedBatchNorm" out_port_id="0"/>
+		<IR id="15" name="conv2d_100/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_147/Relu" out_port_id="0"/>
+		<IR id="122" name="activation_147/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_101/Relu" out_port_id="0"/>
+		<IR id="18" name="activation_101/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_166/FusedBatchNorm" out_port_id="0"/>
+		<IR id="163" name="conv2d_166/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_158/Relu" out_port_id="0"/>
+		<IR id="146" name="activation_158/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_141/Relu" out_port_id="0"/>
+		<IR id="108" name="activation_141/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_104/Relu" out_port_id="0"/>
+		<IR id="24" name="activation_104/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_175/Relu" out_port_id="0"/>
+		<IR id="185" name="activation_175/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_153/Relu" out_port_id="0"/>
+		<IR id="135" name="activation_153/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_145/FusedBatchNorm" out_port_id="0"/>
+		<IR id="117" name="conv2d_145/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_185/FusedBatchNorm" out_port_id="0"/>
+		<IR id="208" name="conv2d_185/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_110/FusedBatchNorm" out_port_id="0"/>
+		<IR id="37" name="conv2d_110/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_180/FusedBatchNorm" out_port_id="0"/>
+		<IR id="197" name="conv2d_180/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_182/Relu" out_port_id="0"/>
+		<IR id="202" name="activation_182/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_152/FusedBatchNorm" out_port_id="0"/>
+		<IR id="131" name="conv2d_152/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_107/FusedBatchNorm" out_port_id="0"/>
+		<IR id="31" name="conv2d_107/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_124/Relu" out_port_id="0"/>
+		<IR id="72" name="activation_124/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_117/FusedBatchNorm" out_port_id="0"/>
+		<IR id="53" name="conv2d_117/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_135/Relu" out_port_id="0"/>
+		<IR id="96" name="activation_135/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_177/FusedBatchNorm" out_port_id="0"/>
+		<IR id="188" name="conv2d_177/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_176/FusedBatchNorm" out_port_id="0"/>
+		<IR id="186" name="conv2d_176/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_163/Relu" out_port_id="0"/>
+		<IR id="157" name="activation_163/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_184/FusedBatchNorm" out_port_id="0"/>
+		<IR id="206" name="conv2d_184/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_144/FusedBatchNorm" out_port_id="0"/>
+		<IR id="115" name="conv2d_144/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_135/FusedBatchNorm" out_port_id="0"/>
+		<IR id="95" name="conv2d_135/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_133/Relu" out_port_id="0"/>
+		<IR id="91" name="activation_133/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_119/Relu" out_port_id="0"/>
+		<IR id="59" name="activation_119/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_136/Relu" out_port_id="0"/>
+		<IR id="98" name="activation_136/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_130/FusedBatchNorm" out_port_id="0"/>
+		<IR id="83" name="conv2d_130/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_116/FusedBatchNorm" out_port_id="0"/>
+		<IR id="51" name="conv2d_116/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_112/Relu" out_port_id="0"/>
+		<IR id="43" name="activation_112/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_142/FusedBatchNorm" out_port_id="0"/>
+		<IR id="109" name="conv2d_142/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_178/FusedBatchNorm" out_port_id="0"/>
+		<IR id="192" name="conv2d_178/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_108/FusedBatchNorm" out_port_id="0"/>
+		<IR id="33" name="conv2d_108/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_155/FusedBatchNorm" out_port_id="0"/>
+		<IR id="139" name="conv2d_155/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_180/Relu" out_port_id="0"/>
+		<IR id="198" name="activation_180/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_150/FusedBatchNorm" out_port_id="0"/>
+		<IR id="127" name="conv2d_150/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_110/Relu" out_port_id="0"/>
+		<IR id="38" name="activation_110/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_146/FusedBatchNorm" out_port_id="0"/>
+		<IR id="119" name="conv2d_146/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_137/FusedBatchNorm" out_port_id="0"/>
+		<IR id="99" name="conv2d_137/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_109/FusedBatchNorm" out_port_id="0"/>
+		<IR id="35" name="conv2d_109/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="activation_164/Relu" out_port_id="0"/>
+		<IR id="160" name="activation_164/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="mixed10/concat" out_port_id="0"/>
+		<IR id="216" name="mixed10/concat" out_port_id="4"/>
+	</map>
+	<map>
+		<framework name="average_pooling2d_11/AvgPool" out_port_id="0"/>
+		<IR id="57" name="average_pooling2d_11/AvgPool" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="activation_102/Relu" out_port_id="0"/>
+		<IR id="20" name="activation_102/Relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_153/FusedBatchNorm" out_port_id="0"/>
+		<IR id="134" name="conv2d_153/Conv2D" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="batch_normalization_138/FusedBatchNorm" out_port_id="0"/>
+		<IR id="101" name="conv2d_138/Conv2D" out_port_id="3"/>
+	</map>
+</mapping>
